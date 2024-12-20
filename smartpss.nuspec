@@ -2,13 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>smartpsslite</id>
-    <version>1.3.6</version>
+    <version>1.003.006</version>
     <packageSourceUrl>https://github.com/twoolums/choco_smartpss</packageSourceUrl>
     <owners>twoolums</owners>
     <title>SmartPSSLite (Install)</title>
-    <authors>Dahua Technology Co., Ltd</authors>
-    <projectUrl>http://us.dahuasecurity.com/product/smartpss/</projectUrl>
+    <authors>Dahua Technology Co. Ltd</authors>
+    <projectUrl>https://dahuawiki.com/SmartPSS_Lite</projectUrl>
     <iconUrl>https://dahuawiki.com/images/d/d6/SmartPSSIcon8.png</iconUrl>
     <copyright>Copyright (c) 2010-22024 Dahua Technology Co., Ltd</copyright>
     <licenseUrl>http://us.dahuasecurity.com/terms-of-use/</licenseUrl>
@@ -16,9 +17,10 @@
     <docsUrl>https://dahuawiki.com/images/a/a4/SmartPSSLite_User%27s_Manual_Eng.pdf</docsUrl>
     <bugTrackerUrl>https://dahuawiki.com/Support</bugTrackerUrl>
     <tags>admin smartpss smartpsslite dvr nvr surveillance dahua rtsp onvif</tags>
-    <summary>SmartPSS is an all-in-one, full-featured video surveillance application</summary>
+    <summary>SmartPSSLite is an all-in-one, full-featured video surveillance application</summary>
     <description>SmartPSS is an all-in-one, full-featured video surveillance application that is ideal for the small to mid-size business that needs to monitor people, premises, and assets. SmartPSS integrates all Dahua network cameras and storage devices into one intuitive, easy to use interface. The software provides efficient device management, video monitoring and playback, alarm and analytic configuration, as well as video wall setup and preview.</description>
     <releaseNotes>https://us.dahuasecurity.com/wp-content/uploads/2022/10/Datasheet_SmartPSSLite_Final.pdf</releaseNotes>
+
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

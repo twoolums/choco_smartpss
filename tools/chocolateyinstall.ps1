@@ -1,3 +1,6 @@
+$ErrorActionPreference = 'Stop' # stop on all errors
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
   url                    = 'https://dahuawiki.com/images/Files/Software/SmartPSS_Lite/SmartPSSLite_V1.003.0000006.0.R.240517.zip'
@@ -11,6 +14,6 @@ $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
   FileType               = 'exe'
   SilentArgs             = '/S'
-  File                   = "$env:TMP\SmartPSSLite_V1.003.0000006.0.R.240517"
+  File                   = "$env:TMP\SmartPSSLite_V1.003.0000006.0.R.240517.exe"
 }
 Install-ChocolateyInstallPackage @packageArgs
